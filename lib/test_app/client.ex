@@ -8,7 +8,7 @@ defmodule TestApp.Client do
     retries: 3,
     framed: true
   ],
-  service: :test_app_thrift,
+  service: :test_thrift,
   import: [:add_two_numbers]
 
 end

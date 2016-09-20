@@ -1,24 +1,13 @@
 # TestApp
 
-**TODO: Add description**
+Small Elixir thrift testing application.
 
-## Installation
+# Testing out application
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Start application with:
 
-  1. Add `test_app` to your list of dependencies in `mix.exs`:
+    iex -S mix
 
-    ```elixir
-    def deps do
-      [{:test_app, "~> 0.1.0"}]
-    end
-    ```
+and then call function from client to add two numbers:
 
-  2. Ensure `test_app` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:test_app]]
-    end
-    ```
-
+    TestApp.Client.add_two_numbers(a, b)

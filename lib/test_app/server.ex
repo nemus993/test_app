@@ -11,5 +11,4 @@ defmodule TestApp.Server do
               recv_timeout: 3000,
               keepalive: true]
           }
-  enumerize_struct Number
 end
